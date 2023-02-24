@@ -1,4 +1,4 @@
-# Joomla 4 offcanvas menu
+# Joomla 4 Cassiopeia offcanvas menu
 
 This alternative layout add a default Bootstap 5 offcanvas menu to the Cassiopeia template.
 
