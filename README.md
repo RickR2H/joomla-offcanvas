@@ -1,6 +1,6 @@
 # Joomla 4 Cassiopeia offcanvas menu
 
-This alternative layout add a default Bootstap 5 offcanvas menu to the Cassiopeia template.
+This alternative layout adds a default Bootstap 5 offcanvas menu to the Cassiopeia template.
 
 1. download offcanvas.php and put the file in templates/cassiopeia/htm/mod_menu
 2. Go to a menu module and add the module to the position "menu"
