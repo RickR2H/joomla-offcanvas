@@ -48,7 +48,7 @@ $wa->addInlineStyle('
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#<?php echo $offcanvasName; ?>" aria-controls="<?php echo $offcanvasName; ?>">
       <span class="icon-menu" aria-hidden="true"></span>
     </button>
-    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="<?php echo $offcanvasName; ?>"
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="<?php echo $offcanvasName; ?>"
       aria-labelledby="<?php echo $offcanvasName; ?>Label">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="<?php echo $offcanvasName; ?>Label"><?php echo $module->title; ?></h5>
