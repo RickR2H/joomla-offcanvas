@@ -4,6 +4,7 @@ defined('_JEXEC') or die;
 
 use Joomla\CMS\HTML\HTMLHelper;
 use Joomla\CMS\Factory;
+use \Joomla\CMS\Uri\Uri;
 
 // Activate offcanvas javascript
 HTMLHelper::_('bootstrap.offcanvas');
@@ -43,7 +44,7 @@ $wa->addInlineStyle('
 ?>
 <nav id="<?php echo $offcanvas; ?>" class="navbar navbar-expand-lg mt-0 w-100" aria-label="Offcanvas navbar large">
   <div class="container-fluid p-0">
-    <a class="navbar-brand" href="/"><?php echo $siteTitle; ?></a>
+    <a class="navbar-brand" href="<?php echo URI::base(true); ?>"><?php echo $siteTitle; ?></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#<?php echo $offcanvasName; ?>" aria-controls="<?php echo $offcanvasName; ?>">
       <span class="icon-menu" aria-hidden="true"></span>
     </button>
