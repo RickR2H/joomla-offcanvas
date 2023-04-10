@@ -25,7 +25,6 @@ $wa->addInlineStyle('
     #' . $modId . ' .offcanvas.show .offcanvas-body ul {
     position: relative;
     width: 100%;
-    margin-top: 0.5rem;
     -webkit-box-shadow: none;
     box-shadow: none;
     background-color: transparent;}
@@ -44,7 +43,7 @@ $wa->addInlineStyle('
 ?>
 <nav id="<?php echo $offcanvas; ?>" class="navbar navbar-expand-lg mt-0 w-100" aria-label="Offcanvas navbar large">
   <div class="container-fluid p-0">
-    <a class="navbar-brand" href="#"><?php echo $siteTitle; ?></a>
+    <a class="navbar-brand" href="/"><?php echo $siteTitle; ?></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#<?php echo $offcanvasName; ?>" aria-controls="<?php echo $offcanvasName; ?>">
       <span class="icon-menu" aria-hidden="true"></span>
     </button>
