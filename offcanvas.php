@@ -29,13 +29,13 @@ $wa->addInlineStyle('
     -webkit-box-shadow: none;
     box-shadow: none;
     background-color: transparent;}
-    #' . $modId . ' .offcanvas.show .offcanvas-body a,
-    #' . $modId . ' .offcanvas.show .offcanvas-body button {
+    #' . $modId . ' .offcanvas .offcanvas-body a,
+    #' . $modId . ' .offcanvas .offcanvas-body button {
     color: var(--body-color);}
-    #' . $modId . ' .offcanvas.show .offcanvas-body a:active,
-    #' . $modId . ' .offcanvas.show .offcanvas-body button:active,
-    #' . $modId . ' .offcanvas.show .offcanvas-body a:hover,
-    #' . $modId . ' .offcanvas.show .offcanvas-body button:hover {
+    #' . $modId . ' .offcanvas .offcanvas-body a:active,
+    #' . $modId . ' .offcanvas .offcanvas-body button:active,
+    #' . $modId . ' .offcanvas .offcanvas-body a:hover,
+    #' . $modId . ' .offcanvas .offcanvas-body button:hover {
     color: var(--cassiopeia-color-link);}
     #' . $modId . ' .offcanvas.show .offcanvas-body .active > a,
     #' . $modId . ' .offcanvas.show .offcanvas-body .active > button {
